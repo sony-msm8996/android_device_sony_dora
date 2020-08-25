@@ -19,27 +19,27 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from kagura device
-$(call inherit-product, device/sony/kagura/device.mk)
+# Inherit from dora device
+$(call inherit-product, device/sony/dora/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_kagura
-PRODUCT_DEVICE := kagura
+PRODUCT_NAME := lineage_dora
+PRODUCT_DEVICE := dora
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := Xperia XZ
+PRODUCT_MODEL := Xperia X Performance
 PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_GMS_CLIENTID_BASE := android-sony
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="kagura_dsds" \
-    PRODUCT_NAME="kagura_dsds" \
-    PRIVATE_BUILD_DESC="kagura_dsds-user 8.0.0 OPR1.170623.026 1 dev-keys"
+    TARGET_DEVICE="dora_dsds" \
+    PRODUCT_NAME="dora_dsds" \
+    PRIVATE_BUILD_DESC="dora_dsds-user 8.0.0 OPR1.170623.026 1 dev-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Sony/kagura_dsds/kagura_dsds:8.0.0/OPR1.170623.026/1:user/dev-keys"
+BUILD_FINGERPRINT := "Sony/dora_dsds/dora_dsds:8.0.0/OPR1.170623.026/1:user/dev-keys"
 
 TARGET_VENDOR := Sony

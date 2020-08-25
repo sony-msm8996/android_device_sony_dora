@@ -70,9 +70,6 @@ vendor/lib/libactuator_dw9763.so
 vendor/lib/libactuator_rohm_bu64243gwz.so
 
 # Camera calibration
-vendor/camera/default.dat
-vendor/camera/flash.dat
-vendor/camera/SEM13BS0_LC898217XC.dat
 vendor/camera/SEM13BS0/color_ctrl.dat
 vendor/camera/SEM13BS0/dataflow.dat
 vendor/camera/SEM13BS0/exposure_ctrl.dat
@@ -110,8 +107,6 @@ vendor/camera/SEM13BS0/multiframe_nr_toppo.dat
 vendor/camera/SEM13BS0/object_tracker.dat
 vendor/camera/SEM13BS0/prc_image_conv.dat
 vendor/camera/SEM13BS0/scene_detector.dat
-vendor/camera/snapshot.dat
-vendor/camera/SOI13BS0_LC898217XC.dat
 vendor/camera/SOI13BS0/color_ctrl.dat
 vendor/camera/SOI13BS0/dataflow.dat
 vendor/camera/SOI13BS0/exposure_ctrl.dat
@@ -149,9 +144,6 @@ vendor/camera/SOI13BS0/multiframe_nr_toppo.dat
 vendor/camera/SOI13BS0/object_tracker.dat
 vendor/camera/SOI13BS0/prc_image_conv.dat
 vendor/camera/SOI13BS0/scene_detector.dat
-vendor/camera/SOI25BS4_BU64747GWZ.dat
-vendor/camera/SOI25BS4_BU64747GWZ_XCF.dat
-vendor/camera/SOI25BS4_BU64747GWZ_XFW.dat
 vendor/camera/SOI25BS4/color_ctrl.dat
 vendor/camera/SOI25BS4/dataflow.dat
 vendor/camera/SOI25BS4/exposure_ctrl.dat
@@ -189,6 +181,14 @@ vendor/camera/SOI25BS4/multiframe_nr_toppo.dat
 vendor/camera/SOI25BS4/object_tracker.dat
 vendor/camera/SOI25BS4/prc_image_conv.dat
 vendor/camera/SOI25BS4/scene_detector.dat
+vendor/camera/default.dat
+vendor/camera/flash.dat
+vendor/camera/SEM13BS0_LC898217XC.dat
+vendor/camera/SOI13BS0_LC898217XC.dat
+vendor/camera/SOI25BS4_BU64747GWZ.dat
+vendor/camera/SOI25BS4_BU64747GWZ_XCF.dat
+vendor/camera/SOI25BS4_BU64747GWZ_XFW.dat
+vendor/camera/snapshot.dat
 vendor/camera/streaming.dat
 vendor/camera/supported.dat
 vendor/camera/version.dat
@@ -1279,6 +1279,8 @@ vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/etc/sensors/hals.conf
 
 # Touchscreen firmware
-etc/firmware/touch_module_id_0xb0.img
-etc/firmware/touch_module_id_0xb1.img
-etc/firmware/touch_module_id_0xb2.img
+etc/firmware/touch_module_id_0x90.img
+etc/firmware/touch_module_id_0x91.img
+etc/firmware/touch_module_id_0x92.img
+etc/firmware/touch_module_id_0x93.img
+etc/firmware/touch_module_id_0x94.img

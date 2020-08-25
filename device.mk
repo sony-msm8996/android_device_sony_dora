@@ -16,7 +16,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/sony/kagura/kagura-vendor.mk)
+$(call inherit-product, vendor/sony/dora/dora-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \

@@ -2,7 +2,7 @@
 touch.deviceType = touchScreen
 
 # Pressure
-touch.pressure.scale = 0.0090
+touch.pressure.scale = 0.0074
 
 # Glove Mode
 touch.gloveMode.deflatePressure = 1

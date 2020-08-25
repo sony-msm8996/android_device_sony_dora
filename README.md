@@ -2,10 +2,10 @@ Copyright (C) 2016 - The CyanogenMod Project
 
 Copyright (C) 2017-2020 - The LineageOS Project
 
-Device configuration for Sony Xperia XZ
+Device configuration for Sony Xperia Performance
 ==============
 
-The Sony Xperia XZ (codenamed _"kagura"_) is a high-end smartphone from Sony in 2016.
+The Sony Xperia X Performance (codenamed _"dora"_) is a high-end smartphone from Sony in 2016.
 
 It was released date was Oct 2016.
 
@@ -19,10 +19,10 @@ GPU     | Adreno 530
 Memory  | 3 GB RAM
 Shipped Android Version | 6.0, upgradable to 8.0
 Storage | 32/64 GB
-Battery | Non-removable Li-Ion 2900 mAh battery
-Display | 1080 x 1920 pixels, 16:9 ratio (~424 ppi density)
+Battery | Non-removable Li-Ion 2700 mAh battery
+Display | 1080 x 1920 pixels, 16:9 ratio (~441 ppi density)
 Camera  | 23 MP, f/2.0, 24mm (wide), 1/2.3", predictive PDAF, Laser AF
 
 ## Device picture
 
-![Sony Xperia XZs](https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-xz.jpg "Sony Xperia XZs")
+![Sony Xperia Performance](https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-x-performance-2.jpg "Sony Xperia X Performance")
