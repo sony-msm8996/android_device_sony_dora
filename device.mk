@@ -37,9 +37,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
+# Camera Configuration
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/camera_config.xml \
+    $(LOCAL_PATH)/rootdir/etc/camera/imx214_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx214_chromatix.xml \
+    $(LOCAL_PATH)/rootdir/etc/camera/imx300_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx300_chromatix.xml
 
 # Device init scripts
 PRODUCT_PACKAGES += \
